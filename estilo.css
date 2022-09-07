@@ -1,0 +1,117 @@
+body{
+    background-color: #60edd1;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='49' viewBox='0 0 28 49'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='hexagons' fill='%239C92AC' fill-opacity='0.4' fill-rule='nonzero'%3E%3Cpath d='M13.99 9.25l13 7.5v15l-13 7.5L1 31.75v-15l12.99-7.5zM3 17.9v12.7l10.99 6.34 11-6.35V17.9l-11-6.34L3 17.9zM0 15l12.98-7.5V0h-2v6.35L0 12.69v2.3zm0 18.5L12.98 41v8h-2v-6.85L0 35.81v-2.3zM15 0v7.5L27.99 15H28v-2.31h-.01L17 6.35V0h-2zm0 49v-8l12.99-7.5H28v2.31h-.01L17 42.15V49h-2z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+img{
+    width: 100%;
+}
+
+.titulo{
+    color: teal;
+    margin-top: 5rem;
+}
+
+.underline{
+    margin-top: 0.5rem;
+    width: 10rem;
+    height: 0.2rem;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.btns-container{
+    margin: 3rem 0;
+}
+
+.button{
+    width: 8rem;
+    padding: 5px 0;
+    margin: 0 4px;
+    color: teal;
+    border: none;
+    transition: .5s;
+    box-shadow: 0 .5rem 1rem rgb(0, 0, 0, .15);
+}
+
+.button:hover{
+    background-color: lightgrey;
+}
+.button:active{
+    transform: scale(1.05);
+}
+
+.product{
+    cursor: pointer;
+}
+
+.price{
+    color: #F0B930;
+    font-weight: bold;
+    font-size: 140%;
+}
+
+.price:hover{
+    color: #664C0B;
+}
+
+.cart{
+    position: absolute;
+    right: 1rem;
+    bottom: 5.6rem;
+}
+
+.checked {
+    color: orange;
+}
+
+.section-title{
+    text-align: center;
+    padding: 25px 0;
+}
+
+.section-title h2{
+    font-size: 60px;
+    text-transform: uppercase;
+    font-family: oswald;
+    font-weight: 700;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form{
+    background-color: #ffff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+    padding: 40px 30px;
+}
+
+.contact-form .boton{
+    background-color: #F0B930;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 10px 50px;
+    letter-spacing: 2px;
+}
+
+.map-area{
+    width: 600px;
+    height: 465px;
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+}
+
+.map-area iframe{
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+@media screen and (max-width: 768px) {
+    .button{
+        width: 6.5rem;
+        margin: 4px;
+    }
+
+    .productos{
+        margin: auto;
+    }
+}
